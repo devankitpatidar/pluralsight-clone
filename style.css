@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    
+    height: 100vh;
+    background-color: black ;
+    
+}
+.fome-section{
+    height: 100vh;
+    width: 45%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.img-section{
+    height: 100vh;
+    width: 55%;
+    background-color: #0d0f12;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.img-section img{
+    height: 65%;
+}
+.img-section button{
+    height: 65px;
+    width: 180px;
+    background-color: #FF1675;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;  
+}
+.fome-section img{
+    height: 60px;
+}
+.fome-section form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 55%;
+    width: 80%;
+    /* background-color: bisque; */
+    font-size: 25px;
+    color: white;
+}
+form input{
+    width: 100%;
+    height: 50px;
+    background: none;
+    border: 1px solid gray;
+    margin-bottom: 25px ;
+
+
+}
+
+form span{
+    width: 100%;
+}
+.btn-fome{
+
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    background-color: #006395;
+    color: white;
+    margin-top: 20px;
+}
+.link-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 20px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 25px;
+}
+.link-section a {
+    color: #006395;
+    text-decoration: none;
+    margin-bottom: 25px;
+}
+.creat-button{
+    width: 80%;
+    height: 50px;
+    margin-top: 20px;
+    background-color: rgba(138,153,168,.25);
+    color: white;
+    font-size: 20px;
+}
+.about-link {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+margin-top: 20px;
+}
+.about-link a{
+    font-size: 15px;
+    padding-top: 5px;
+    text-decoration: none;
+    color: gray;
+}
+.img-section button:hover{
+    background-color: #c30450;
+    border: 1px solid white;
+}
+.btn-fome:hover{
+    background-color: #03547c;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+
+}
+.creat-button:hover{
+    background-color:  rgba(138,153,168,100);;
+}
+@media (max-width:786px ){
+    .img-section{
+        display: none;
+
+    }
+    .fome-section{
+        width: 100%;
+    }
+    
+}
+
